@@ -1,0 +1,124 @@
+@import 'custom.scss';
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    /* height: 40vmin; */
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-right:30px;
+    padding-left:30px;
+    @include media-breakpoint-up(md) {
+      max-width: 1110px;
+    }
+    max-width: 768px;
+  }
+  
+  h1{
+    @include media-breakpoint-up(lg) {
+     //line-height: 5.5;
+      font-size: 5rem;
+    }
+    font-size: 3.5rem;
+
+    margin-bottom: 0px;
+    padding: 0 10px;
+  }
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .badge{
+    white-space: normal; 
+    word-spacing: 3px;
+    text-align: start;
+    padding: 10px;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1rem;
+    float: left;
+    width: 100%;
+  }
+  .Card{
+    padding-top:50px;
+  }
+  .card-author{
+    margin-bottom: 20px;
+  }
+  .card-body{
+    height: 250px;
+  }
+  .card-title{  
+    float: left;
+    text-align: left;
+    margin-bottom:0;
+  }
+  .card-name{
+    float: left;
+    text-align: right;
+  }
+  .card-desc{font-size: 0.9rem;}
+
+  .card-title h2, .card-name h3{
+    font-size: .8rem;
+  }
+  .card-name{ 
+   
+   font-size: 1rem;
+  }
+  .card-link {
+     margin-right:1rem;
+     font-weight:600;
+    h2, h3{
+      color: #542e91;
+      span{
+        color:#000;
+      }
+      &:hover {
+        color:#372c49;
+        text-decoration: underline;
+
+      }
+    }
+
+  }
+  .card-link + .card-link {
+    margin-left:0;
+
+  }
+  .card-subtitle, .card-desc{
+    text-align: left;
+    width: 100%;
+    float: left;
+  }
+  .card-subtitle {
+    color: #542e91;
+  }
+  .card-img-top{
+    @include media-breakpoint-up(sm){
+      height: 15vw;
+    }
+    height: 50vw;
+    object-fit: cover;
+  }
