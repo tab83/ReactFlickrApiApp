@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactFlickrApiApp/static/css/main.50a8beb8.chunk.css",
+    "main.js": "/ReactFlickrApiApp/static/js/main.ccb6347c.chunk.js",
+    "main.js.map": "/ReactFlickrApiApp/static/js/main.ccb6347c.chunk.js.map",
+    "runtime~main.js": "/ReactFlickrApiApp/static/js/runtime~main.1df0a6c9.js",
+    "runtime~main.js.map": "/ReactFlickrApiApp/static/js/runtime~main.1df0a6c9.js.map",
+    "static/js/2.2bef02bf.chunk.js": "/ReactFlickrApiApp/static/js/2.2bef02bf.chunk.js",
+    "static/js/2.2bef02bf.chunk.js.map": "/ReactFlickrApiApp/static/js/2.2bef02bf.chunk.js.map",
+    "index.html": "/ReactFlickrApiApp/index.html",
+    "precache-manifest.4346455280704a6a561375f78d03711f.js": "/ReactFlickrApiApp/precache-manifest.4346455280704a6a561375f78d03711f.js",
+    "service-worker.js": "/ReactFlickrApiApp/service-worker.js",
+    "static/css/main.50a8beb8.chunk.css.map": "/ReactFlickrApiApp/static/css/main.50a8beb8.chunk.css.map",
+    "static/media/logo.svg": "/ReactFlickrApiApp/static/media/logo.5716f491.svg"
+  }
+}
